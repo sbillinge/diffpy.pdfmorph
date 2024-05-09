@@ -18,7 +18,7 @@ jobs:
       - name: check out diffpy.pdfmorph
         uses: actions/checkout@v3
         with:
-          repository: diffpy/diffpy.pdfmorph
+          repository: billingegroup/pydatarecognition
           # for bookkeeping have diffpy.pdfmorph at the same level as everything else in the
           # directory tree
           path: .
